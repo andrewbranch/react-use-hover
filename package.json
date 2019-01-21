@@ -5,10 +5,11 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepare": "npm run build && npm run test",
+    "prepare": "npm run prettier-check && npm run build && npm run test",
     "prebuild": "prettier --write src/**/*.ts{,x}",
     "build": "tsc -p tsconfig.json",
-    "test": "jest --coverage src"
+    "test": "jest --coverage src",
+    "prettier-check": "prettier --check src/**/*.ts{,x}"
   },
   "repository": {
     "type": "git",

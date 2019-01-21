@@ -4,4 +4,4 @@ node_js:
   - node
 script:
   - npm test
-  - npx prettier --check src/**/*.ts{,x}
+  - npm run prettier-check
