@@ -1,4 +1,4 @@
-# react-use-hover [![Build Status](https://travis-ci.com/andrewbranch/react-use-hover.svg?branch=master)](https://travis-ci.com/andrewbranch/react-use-hover) ![NPM Version](https://img.shields.io/npm/v/react-use-hover.svg) ![Minified size](https://img.shields.io/bundlephobia/min/react-use-hover.svg)
+# react-use-hover [![Build Status](https://travis-ci.com/andrewbranch/react-use-hover.svg?branch=master)](https://travis-ci.com/andrewbranch/react-use-hover) [![NPM Version](https://img.shields.io/npm/v/react-use-hover.svg)](https://www.npmjs.com/package/react-use-hover) [![Minified size](https://img.shields.io/bundlephobia/min/react-use-hover.svg)](https://www.npmjs.com/package/react-use-hover)
 
 A React state hook to determine whether a React element is being hovered.
 
@@ -48,7 +48,7 @@ npm run test
 npm run test -- --watch
 
 # Do whatever you want
-npx jest # --any --jest --options
+npx jest src # --any --jest --options
 ```
 
 ## Contributing
