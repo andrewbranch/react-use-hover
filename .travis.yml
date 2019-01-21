@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - lts/*
+  - node
+script:
+  - npm test
+  - npx prettier --check src/**/*.ts{,x}
