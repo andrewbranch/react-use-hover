@@ -1,4 +1,4 @@
-# react-use-hover [![Build Status](https://travis-ci.com/andrewbranch/react-use-hover.svg?branch=master)](https://travis-ci.com/andrewbranch/react-use-hover) [![NPM Version](https://img.shields.io/npm/v/react-use-hover.svg)](https://www.npmjs.com/package/react-use-hover) [![Minified size](https://img.shields.io/bundlephobia/min/react-use-hover.svg)](https://www.npmjs.com/package/react-use-hover)
+# react-use-hover [![Build Status](https://travis-ci.com/andrewbranch/react-use-hover.svg?branch=master)](https://travis-ci.com/andrewbranch/react-use-hover) [![NPM Version](https://img.shields.io/npm/v/react-use-hover.svg)](https://www.npmjs.com/package/react-use-hover) [![Minified size](https://img.shields.io/bundlephobia/min/react-use-hover.svg)](https://www.npmjs.com/package/react-use-hover) [![Greenkeeper badge](https://badges.greenkeeper.io/andrewbranch/react-use-hover.svg)](https://greenkeeper.io/)
 
 A React state hook to determine whether a React element is being hovered.
 
