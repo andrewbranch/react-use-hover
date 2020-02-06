@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/andrewbranch/react-use-hover#readme",
   "devDependencies": {
-    "@types/jest": "^24.0.12",
+    "@types/jest": "^25.1.2",
     "@types/react-test-renderer": "^16.0.3",
     "jest": "^24.7.1",
     "prettier": "^1.16.0",
