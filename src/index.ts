@@ -12,7 +12,7 @@ export type HoverProps = Pick<
 
 export default function useHover({
   mouseEnterDelayMS = 0,
-  mouseLeaveDelayMS = 0,
+  mouseLeaveDelayMS = 0
 }: UseHoverOptions = {}): [boolean, HoverProps] {
   const [isHovering, setIsHovering] = useState(false);
   let mouseEnterTimer: number | undefined;
@@ -33,7 +33,7 @@ export default function useHover({
           () => setIsHovering(false),
           mouseLeaveDelayMS
         );
-      },
-    },
+      }
+    }
   ];
 }
