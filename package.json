@@ -1,6 +1,6 @@
 {
   "name": "react-use-hover",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "State hook to determine whether a React element is being hovered",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
