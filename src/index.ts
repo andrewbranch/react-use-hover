@@ -11,7 +11,7 @@ export type HoverProps = Pick<
 >;
 
 export default function useHover({
-  mouseEnterDelayMS = 200,
+  mouseEnterDelayMS = 0,
   mouseLeaveDelayMS = 0
 }: UseHoverOptions = {}): [boolean, HoverProps] {
   const [isHovering, setIsHovering] = useState(false);
