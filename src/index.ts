@@ -6,7 +6,7 @@ export interface UseHoverOptions {
 }
 
 export type HoverProps = Pick<
-  React.HTMLAttributes<HTMLElement>,
+  React.HTMLAttributes<HTMLElement | SVGElement>,
   "onMouseEnter" | "onMouseLeave"
 >;
 
